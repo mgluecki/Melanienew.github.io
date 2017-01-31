@@ -1,0 +1,125 @@
+/* ----------- Allgemeine Formatierung ----------- */
+body {
+  font-family: Avenir;
+  color: white; /* #88a89a; */
+}
+
+img#logo {
+padding-top: 60px;
+}
+
+p {
+  text-align: center;
+  padding: 10px 200px 0px 200px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h1#about_headline {
+  padding-top: 90px;
+}
+
+h1#portfolio_headline {
+  padding-top: 100px
+}
+
+h1#contact_headline {
+  padding-top: 50px;
+}
+
+div {
+  width: 100%;
+  height: 800px;
+}
+
+a {
+  text-decoration: none;
+  color: white; /* orange #e9967a*/
+}
+
+/* ------------------- Fotoboxen ------------------ */
+div#home_foto {
+  background-color: #e9967a}
+  /*background-image: url(hintergruende/ubahn2.png);
+background-size: 100% auto;}*/
+
+div#foto_1 {
+  background-image: url(hintergruende/stairs_neu.png);
+  background-size: 100% auto;
+}
+
+div#foto_2 {
+  background-image: url(hintergruende/staturc.png);
+  background-size: 100% auto;
+}
+
+div.foto {
+  /* background-size: 100% auto; */
+}
+
+/* ------------------- Textboxen ------------------- */
+div.text {
+  background-color: /* white;*/ #88a89a;
+  height: 400px;
+}
+
+/* --------------- Navigation Menü ----------------- */
+
+li.navigation_liste {
+  text-align: center;
+  padding-left: 80px;
+  display: inline-block;
+  font-size: 23px;
+}
+
+li.navigation_liste: hover {
+  background-color: white
+}
+
+nav#navigation {
+padding-top: 30px;
+}
+
+/* -------------- Navigation Portfolio ------------- */
+li.icons_liste {
+  display: inline-block;
+}
+
+li#apps {
+  padding-left: 300px;
+}
+
+img.icons_pics {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav#icons_navigation {
+text-align: center;
+}
+
+/* ----------------- Facebooklink ------------------ */
+img#facebooklink {
+  display: block;
+  margin: 0 auto;
+}
+
+/* -------------------- Button --------------------
+div.button_container {
+  border-color: white;
+  border-style: solid;
+  height: 60px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+p.button_schrift {
+  font-size: 23px;
+  text-align: center;
+}
+*/
