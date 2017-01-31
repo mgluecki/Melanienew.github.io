@@ -100,7 +100,7 @@ a {
 
 div#home_foto {
   background-size: 100% auto;
-  background: url(hintergruende/staturc.png) no-repeat center center fixed;
+  background: url(hintergruende/selfiedavid.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,6 +109,7 @@ div#home_foto {
 }
 
 div#foto_1 {
+
   background-size: 100% auto;
   background: url(hintergruende/stairs_neu.png) no-repeat center center fixed;
   -webkit-background-size: cover;
