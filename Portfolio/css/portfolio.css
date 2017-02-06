@@ -85,6 +85,7 @@ a {
 
 nav#navigation {
 padding-top: 30px;
+padding-bottom: 60px;
 }
 
 /* Mobile Styles */
@@ -161,8 +162,8 @@ div.text {
 
 p {
   text-align: center;
-  padding: 10px;
-  max-width: 900px;
+  max-width: 700px;
+	padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
