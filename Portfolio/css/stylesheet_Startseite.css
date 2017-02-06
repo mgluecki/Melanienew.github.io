@@ -92,11 +92,10 @@ div {
 
 a {
   text-decoration: none;
-  color: white; /* orange #e9967a*/
+  color: white;
 }
 
 /* ------------------- Fotoboxen ------------------ */
-
 
 div#home_foto {
   background-size: 100% auto;
@@ -105,7 +104,6 @@ div#home_foto {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
 div#foto_1 {
@@ -157,7 +155,7 @@ div.text {
 }
 
 nav#navigation {
-padding-top: 30px;
+padding-top: 10px;
 }
 
 /* Mobile Styles */
@@ -202,18 +200,3 @@ img#facebooklink {
   padding-top: 20px;
   margin: 0 auto;
 }
-
-/* -------------------- Button --------------------
-div.button_container {
-  border-color: white;
-  border-style: solid;
-  height: 60px;
-  width: 200px;
-  margin: 0 auto;
-}
-
-p.button_schrift {
-  font-size: 23px;
-  text-align: center;
-}
-*/

@@ -59,6 +59,71 @@ padding-top: 0px;
 margin-top: 60px;
 }
 
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* --------------- Navigation Menü ----------------- */
+
+#navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation_liste {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 23px;
+  min-width: 100px;
+}
+
+.navigation_liste a:hover {
+  font-weight: bold;
+}
+
+nav#navigation {
+padding-top: 30px;
+}
+
+/* Mobile Styles */
+
+@media screen and (min-width: 680px) {
+
+  #navigation {
+    text-align: center;
+  }
+
+  .navigation_liste {
+    display: inline-block;
+  }
+
+}
+
+
+/* -------------- Navigation Portfolio ------------- */
+li.icons_liste {
+  display: inline-block;
+}
+
+li#apps {
+  padding-left: 300px;
+}
+
+img.icons_pics {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav#icons_navigation {
+text-align: center;
+padding-top: 10px;
+}
+
+/* --------------    Fotos      -----------------*/
 img.icons_pics {
   height: 100px;
   width: 100px;
@@ -77,7 +142,7 @@ img {
 }
 
 .wrapper {
-  width: 900px;
+  width: 1150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -85,7 +150,13 @@ img {
 .box {
   width: 33.33%;
   float: left;
-  padding: 10px;
+  padding: 5px;
+}
+
+/* ------------------- Textboxen ------------------- */
+div.text {
+  background-color: #e9967a;
+  height: 180px;
 }
 
 p {
@@ -99,4 +170,5 @@ p {
 h1 {
   font-size: 40px;
   text-align: center;
+  padding-top: 45px;
 }
