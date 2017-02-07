@@ -142,6 +142,7 @@ img {
   height: auto;
 }
 
+
 .wrapper {
   width: 1150px;
   margin-left: auto;
@@ -149,10 +150,18 @@ img {
 }
 
 .box {
-  width: 33.33%;
+  width: 50%;
   float: left;
   padding: 5px;
+	filter: grayscale(100%);
 }
+
+.box:hover{
+	filter: none;
+	z-index: 5;
+	transform: scale(1.0);
+}
+
 
 /* ------------------- Textboxen ------------------- */
 div.text {
